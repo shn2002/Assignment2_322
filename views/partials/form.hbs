@@ -1,0 +1,17 @@
+<div class="col-md-4">
+        <div class="p-5">
+            <form method="post" action="/gallery">
+                {{#each flowers}}
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id ={{this}} name="rdoImage" value={{this}}>
+                        <label class="form-check-label" for={{this}}>
+                            {{this}}
+                        </label>
+                    </div>
+                {{/each}}
+                <div class="p-2">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>   
+            </form>
+        </div>
+</div>

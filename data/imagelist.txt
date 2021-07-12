@@ -1,0 +1,10 @@
+amaryllis
+carnation
+chrysanthemum
+gardenia
+lilac
+lily
+mantianxing
+mudan
+rose
+tulip

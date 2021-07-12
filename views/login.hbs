@@ -1,0 +1,24 @@
+<main class="form-signin">
+    <h1>
+        WEB322 Dan Wang's Gallery
+        <small class="text-muted">Assignment 2</small>
+    </h1>
+    <h2>
+        Login
+    </h2>
+    <form method="post" action="/">
+        <div class="mb-3">
+            <label for="txtUserName" class="form-label">UserName</label>
+            <input type="text" required placeholder="Username" name="userName" class="form-control" id="txtUserName"  >
+            
+        </div>
+        <div class="mb-3">
+            <label for="txtPassword" class="form-label">Password</label>
+            <input type="password" required placeholder="Password" name="password" class="form-control" id="txtPassword">
+        </div>
+        <button type="submit" class="btn btn-primary">Login</button>
+        <button type="button" class="btn btn-secondary" onClick="parent.location='/signup'" >Register</button>
+    </form>
+    <div>{{data}}</div> 
+
+</main>  
