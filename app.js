@@ -1,4 +1,5 @@
 const express = require('express');
+const port = process.env.PORT || 3000
 const bodyParser = require('body-parser');
 const path = require('path');
 const randomstring = require('randomstring');
@@ -122,7 +123,7 @@ app.use((err, req, res, next) => {
     }
 })
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log('Listening on port 3000')
 
 })
