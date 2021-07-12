@@ -4,11 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engine": {
-    "node": "12.18.0"
+    "node": "14.15.4",
+    "npm": "6.14.10"
   },
   "keyword": [
     "node",
